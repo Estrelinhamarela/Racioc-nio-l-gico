@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #exercise {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  input[type="text"], button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #history {
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  #history h2 {
+    color: #333;
+  }
+  
+  #exerciseHistory {
+    list-style-type: none;
+  }
+  
+  .correct {
+    color: #4caf50;
+  }
+  
+  .incorrect {
+    color: #f44336;
+  }
+  
